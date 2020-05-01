@@ -6,7 +6,7 @@ echo '============================
 ============================'
 
 cd /etc/ssh/
-sed -i "/PermitRootLogin yes/c PermitRootLogin no" sshd_config
+sed -i "/PermitRootLogin no/c PermitRootLogin yes" sshd_config
 systemctl restart sshd
 systemctl restart ssh
 cd ~
