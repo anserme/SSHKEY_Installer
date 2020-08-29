@@ -6,7 +6,7 @@
 
 ``` wget https://github.com/anserme/SSHKEY_Installer/raw/master/key.sh --no-check-certificate&& bash key.sh  ```
 
-``` wget https://github.com/anserme/SSHKEY_Installer/raw/master/aws.sh --no-check-certificate&& bash aws.sh  ```
+``` wget https://github.com/anserme/SSHKEY_Installer/raw/master/aws.sh --no-check-certificate&& sudo bash aws.sh  ```
 
 ``` wget https://github.com/anserme/SSHKEY_Installer/raw/master/rootenabler.sh --no-check-certificate&& bash rootenabler.sh  ```
 
